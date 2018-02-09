@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="QualityMinds">
+  <test name="QualityMindsWebsiteTest">
+   <classes>
+            <class name="framework.Tests.TestScenarios1"/>
+            <class name="framework.Tests.TestScenarios2"/>
+               <class name="framework.Tests.TestScenarios3"/>
+        </classes>
+  </test> 
+</suite>
