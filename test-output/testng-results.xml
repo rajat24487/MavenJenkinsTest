@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
     <line>
       <![CDATA[Home Page is displayed]]>
@@ -13,62 +13,17 @@
     <line>
       <![CDATA[Website Language is English]]>
     </line>
-    <line>
-      <![CDATA[Website Language is English]]>
-    </line>
-    <line>
-      <![CDATA[Submenu is displayed]]>
-    </line>
-    <line>
-      <![CDATA[Mobile Testing link is clicked]]>
-    </line>
-    <line>
-      <![CDATA[Mobile Testing section is displayed]]>
-    </line>
-    <line>
-      <![CDATA[More button is clicked]]>
-    </line>
-    <line>
-      <![CDATA[contact information contains Ron Werner]]>
-    </line>
-    <line>
-      <![CDATA[Website Language is English]]>
-    </line>
-    <line>
-      <![CDATA[Career menu is clicked]]>
-    </line>
-    <line>
-      <![CDATA[Career Page is displayed]]>
-    </line>
-    <line>
-      <![CDATA[Apply now is clicked]]>
-    </line>
-    <line>
-      <![CDATA[Modal is opened by Apply now link]]>
-    </line>
-    <line>
-      <![CDATA[File is uploaded successfully]]>
-    </line>
-    <line>
-      <![CDATA[German button is clicked]]>
-    </line>
-    <line>
-      <![CDATA[Modal is not opened by Apply now link or modal is not displayed after click on german language]]>
-    </line>
-    <line>
-      <![CDATA[Website Language is German]]>
-    </line>
   </reporter-output>
-  <suite name="QualityMinds" duration-ms="100865" started-at="2018-01-20T11:17:52Z" finished-at="2018-01-20T11:19:33Z">
+  <suite name="Default suite" duration-ms="17333" started-at="2018-03-07T09:52:54Z" finished-at="2018-03-07T09:53:11Z">
     <groups>
     </groups>
-    <test name="QualityMindsWebsiteTest" duration-ms="100865" started-at="2018-01-20T11:17:52Z" finished-at="2018-01-20T11:19:33Z">
+    <test name="Default test" duration-ms="17333" started-at="2018-03-07T09:52:54Z" finished-at="2018-03-07T09:53:11Z">
       <class name="framework.Tests.TestScenarios1">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:framework.Tests.TestScenarios1@3632be31]" name="beforeMethod" is-config="true" duration-ms="11623" started-at="2018-01-20T16:47:52Z" finished-at="2018-01-20T16:48:04Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:framework.Tests.TestScenarios1@210366b4]" name="beforeMethod" is-config="true" duration-ms="13708" started-at="2018-03-07T15:22:54Z" finished-at="2018-03-07T15:23:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="verifyEnglishLanguageTest()[pri:0, instance:framework.Tests.TestScenarios1@3632be31]" name="verifyEnglishLanguageTest" duration-ms="5069" started-at="2018-01-20T16:48:04Z" finished-at="2018-01-20T16:48:09Z">
+        <test-method status="PASS" signature="verifyEnglishLanguageTest()[pri:0, instance:framework.Tests.TestScenarios1@210366b4]" name="verifyEnglishLanguageTest" duration-ms="2962" started-at="2018-03-07T15:23:08Z" finished-at="2018-03-07T15:23:11Z">
           <reporter-output>
             <line>
               <![CDATA[Home Page is displayed]]>
@@ -84,84 +39,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyEnglishLanguageTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:framework.Tests.TestScenarios1@3632be31]" name="afterMethod" is-config="true" duration-ms="5706" started-at="2018-01-20T16:48:09Z" finished-at="2018-01-20T16:48:15Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:framework.Tests.TestScenarios1@210366b4]" name="afterMethod" is-config="true" duration-ms="648" started-at="2018-03-07T15:23:11Z" finished-at="2018-03-07T15:23:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- framework.Tests.TestScenarios1 -->
-      <class name="framework.Tests.TestScenarios2">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:framework.Tests.TestScenarios2@5abca1e0]" name="beforeMethod" is-config="true" duration-ms="12805" started-at="2018-01-20T16:48:15Z" finished-at="2018-01-20T16:48:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="verifyContactInformationTest()[pri:0, instance:framework.Tests.TestScenarios2@5abca1e0]" name="verifyContactInformationTest" duration-ms="6643" started-at="2018-01-20T16:48:28Z" finished-at="2018-01-20T16:48:34Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Website Language is English]]>
-            </line>
-            <line>
-              <![CDATA[Submenu is displayed]]>
-            </line>
-            <line>
-              <![CDATA[Mobile Testing link is clicked]]>
-            </line>
-            <line>
-              <![CDATA[Mobile Testing section is displayed]]>
-            </line>
-            <line>
-              <![CDATA[More button is clicked]]>
-            </line>
-            <line>
-              <![CDATA[contact information contains Ron Werner]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyContactInformationTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:framework.Tests.TestScenarios2@5abca1e0]" name="afterMethod" is-config="true" duration-ms="5632" started-at="2018-01-20T16:48:34Z" finished-at="2018-01-20T16:48:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- framework.Tests.TestScenarios2 -->
-      <class name="framework.Tests.TestScenarios3">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:framework.Tests.TestScenarios3@2286778]" name="beforeMethod" is-config="true" duration-ms="12050" started-at="2018-01-20T16:48:40Z" finished-at="2018-01-20T16:48:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="verifyFileUploadTest()[pri:0, instance:framework.Tests.TestScenarios3@2286778]" name="verifyFileUploadTest" duration-ms="35258" started-at="2018-01-20T16:48:52Z" finished-at="2018-01-20T16:49:27Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Website Language is English]]>
-            </line>
-            <line>
-              <![CDATA[Career menu is clicked]]>
-            </line>
-            <line>
-              <![CDATA[Career Page is displayed]]>
-            </line>
-            <line>
-              <![CDATA[Apply now is clicked]]>
-            </line>
-            <line>
-              <![CDATA[Modal is opened by Apply now link]]>
-            </line>
-            <line>
-              <![CDATA[File is uploaded successfully]]>
-            </line>
-            <line>
-              <![CDATA[German button is clicked]]>
-            </line>
-            <line>
-              <![CDATA[Modal is not opened by Apply now link or modal is not displayed after click on german language]]>
-            </line>
-            <line>
-              <![CDATA[Website Language is German]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyFileUploadTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:framework.Tests.TestScenarios3@2286778]" name="afterMethod" is-config="true" duration-ms="6031" started-at="2018-01-20T16:49:27Z" finished-at="2018-01-20T16:49:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- framework.Tests.TestScenarios3 -->
-    </test> <!-- QualityMindsWebsiteTest -->
-  </suite> <!-- QualityMinds -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

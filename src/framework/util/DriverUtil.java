@@ -1,5 +1,6 @@
 package framework.util;
 import java.io.File;
+import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 
@@ -12,6 +13,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 
 
@@ -57,6 +59,7 @@ public class DriverUtil extends TestUtil {
 				default:
 					try {
 						driver = new FirefoxDriver(capabilities);
+						//driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), DesiredCapabilities.firefox());
 					}
 					catch(Exception e) {
 						System.out.println(e.getMessage());
